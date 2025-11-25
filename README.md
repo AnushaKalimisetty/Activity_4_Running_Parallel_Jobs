@@ -1,6 +1,6 @@
-In this activity, you will learn how to use Build Artifacts in GitHub Actions workflows. 
-Artifacts are files or outputs generated during workflow runs that can be saved and 
-downloaded later — useful for test reports, build files, or deployment packages. You’ll 
-create a simple workflow that generates a text file as a build artifact, uploads it, and 
-allows it to be downloaded from the GitHub Actions interface. This is especially helpful 
-in CI/CD pipelines to pass data between jobs or keep logs for review. 
+n this activity, you'll create a GitHub Actions workflow to demonstrate parallel job 
+execution. You'll configure jobs like lint, test, publish, and a matrix strategy job (test1) 
+that runs on multiple operating systems in parallel. This is useful for testing your code 
+across different environments at the same time. You'll create the workflow in your 
+repository, observe how jobs run concurrently, and view output logs to understand the 
+job structure and execution order. 
